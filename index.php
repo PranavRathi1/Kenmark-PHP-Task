@@ -91,7 +91,7 @@
 
     <!-- Your Homepage Content Goes Here -->
     <div class="Welcome">
-        <h2>Welcome to Your Website!</h2>
+        <h2>Welcome to KENMARK ITAN SOLUTIONS Website!</h2>
     </div>
 
     <?php include 'footer.php'; ?> 
