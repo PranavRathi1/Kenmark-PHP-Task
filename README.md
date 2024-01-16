@@ -1,4 +1,5 @@
-# Kenmark ITAN Solutions Website
+# Kenmark ITAN Solutions Login/Registration Page
+# Made By: Pranav Rathi
 
 Welcome to the Kenmark ITAN Solutions website project! This project is a simple website that includes features like user registration, login, profile viewing, and a contact form.
 
