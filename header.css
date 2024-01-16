@@ -1,0 +1,80 @@
+/* header.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  padding: 0;
+  background-image: url(Background.png);
+}
+
+.header {
+  background-color: #000000;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center vertically */
+  padding: 10px 15px;
+  background-color: #000000;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Center vertically */
+}
+
+.logo img {
+  height: 50px;
+  vertical-align: middle;
+}
+
+.company-name {
+  margin-left: 10px;
+}
+
+.navigation {
+  float: right;
+}
+
+.navigation a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: inline-block;
+}
+
+.navigation a:hover {
+  background-color: #000000;
+}
+
+
+.footer {
+  padding: 10px 15px;
+  color: rgb(39, 35, 35);
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.copyright {
+  float: right;
+  margin-right: 20px;
+}
+
+.footer {
+  padding: 10px 15px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
