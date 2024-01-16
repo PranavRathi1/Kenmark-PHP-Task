@@ -1,18 +1,4 @@
 
-<body>
-
-
-
-
-
-
-
-</body>
-</html>
-
-   
-
-
 
 <!-- registration.php -->
 <!DOCTYPE html>

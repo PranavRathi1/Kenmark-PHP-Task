@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($result) {
         echo '<H1  class="success-message" >Registration successful!</H1>';
         echo '<H1 class="redirect-message">Redirecting to login page...</H1>';
-        header('Refresh: 3; URL=login.php'); // Redirect to login.php after 3 seconds
+        header('Refresh: 3; URL=login.php'); // Redirects to login.php after 3 seconds
         exit();
     } else {
         echo 'Error: ' . mysqli_error($database);

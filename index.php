@@ -1,34 +1,34 @@
-<!-- header.php -->
+<!-- index.php -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Your Website Name</title>
     <style>
-        
         body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
             margin: 0;
-            font-family: Arial, sans-serif;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             background-image: url(Background.png);
         }
 
         .header {
-            background-color: #000000;
-            padding: 15px;
-            color: white;
-            text-align: center;
+            width: 100%;
+            box-sizing: border-box;
         }
 
         .navbar {
             display: flex;
             justify-content: space-between;
-            align-items: center;
             padding: 10px 15px;
-            background-color: #000000;
+            background-color: #333;
             color: white;
+            width: 100%;
         }
 
         .logo {
@@ -43,7 +43,7 @@
         }
 
         .company-name {
-            margin-left: 10px;
+            margin-left: auto;
         }
 
         .navigation {
@@ -58,12 +58,23 @@
         }
 
         .navigation a:hover {
-            background-color: #000000;
+            text-decoration: underline;
+            background-color: #555;
+        }
+
+        .Welcome {
+            text-align: center;
+            margin-top: 20px; 
+        }
+
+        h2 {
+            color: #333;
         }
     </style>
+    <link rel="stylesheet" href="header.css"> 
 </head>
-
 <body>
+    <!-- Header Section -->
     <div class="header">
         <div class="navbar">
             <div class="logo">
@@ -77,3 +88,13 @@
             </div>
         </div>
     </div>
+
+    <!-- Your Homepage Content Goes Here -->
+    <div class="Welcome">
+        <h2>Welcome to Your Website!</h2>
+    </div>
+
+    <?php include 'footer.php'; ?> 
+
+</body>
+</html>

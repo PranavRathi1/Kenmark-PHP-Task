@@ -38,7 +38,7 @@ if (isset($_SESSION['user_id'])) {
             display: flex;
             flex-direction: column;
             align-items: center;
-            overflow-x: hidden; /* Remove horizontal scrollbar */
+            overflow-x: hidden; 
             height: 100vh;
             color: #333;
             background-image: url(Background.png);
